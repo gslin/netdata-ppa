@@ -26,7 +26,7 @@ cp -R debian/ "${BASEDIR}/"
 pushd "${BASEDIR}/"
 dh_make -f "../${TARBALL}" -s
 
-if grep "^netdata (${VERSION}"; then
+if grep "^netdata (${VERSION}" debian/changelog; then
     dch --distribution unstable -i
 else
     dch --distribution unstable -v "${VERSION}-1ubuntu1~unstable~ppa1"
