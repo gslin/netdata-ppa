@@ -1,3 +1,9 @@
+netdata (1.2.0-1ubuntu1~unstable~ppa8) unstable; urgency=medium
+
+  * Handle /var/cache/netdata and chown web part.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Sun, 22 May 2016 03:09:58 +0800
+
 netdata (1.2.0-1ubuntu1~unstable~ppa7) unstable; urgency=medium
 
   * Fix bash "if" syntax.
