@@ -1,3 +1,9 @@
+netdata (1.2.0-1ubuntu1~unstable~ppa6) unstable; urgency=medium
+
+  * Implement action for pre & post scripts.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Sun, 22 May 2016 01:53:04 +0800
+
 netdata (1.2.0-1ubuntu1~unstable~ppa5) unstable; urgency=medium
 
   * Fix rm script.
