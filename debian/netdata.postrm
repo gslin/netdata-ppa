@@ -1,6 +1,7 @@
 #!/bin/bash
 
 if [[ "xpurge" = "x$1" ]]; then
+    rm -rf /var/cache/netdata
     userdel netdata > /dev/null 2>&1
     groupdel netdata || true > /dev/null 2>&1
 fi
