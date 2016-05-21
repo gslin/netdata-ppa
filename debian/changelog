@@ -1,3 +1,9 @@
+netdata (1.2.0-1ubuntu1~unstable~ppa7) unstable; urgency=medium
+
+  * Fix bash "if" syntax.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Sun, 22 May 2016 02:38:39 +0800
+
 netdata (1.2.0-1ubuntu1~unstable~ppa6) unstable; urgency=medium
 
   * Implement action for pre & post scripts.
