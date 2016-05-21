@@ -23,3 +23,5 @@ mkdir -p "${TMPDIR}"
 wget -c -O "${TMPDIR}/${TARBALL}" -- "${URL}"
 tar -zxv -C "${TMPDIR}" -f "${TMPDIR}/${TARBALL}"
 cp -R debian/ "${BASEDIR}/"
+cd "${BASEDIR}/"
+dh_make -f "../${TARBALL}" -s
