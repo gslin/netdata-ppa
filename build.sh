@@ -26,6 +26,7 @@ cp -R debian/ "${BASEDIR}/"
 pushd "${BASEDIR}/"
 dh_make -f "../${TARBALL}" -s < /dev/null
 
+# If we have already submitted this version before, use -i to increase version.
 if grep "^netdata (${VERSION}" debian/changelog; then
     dch --distribution unstable -i
 else
