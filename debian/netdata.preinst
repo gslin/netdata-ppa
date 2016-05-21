@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ "xinstall" == "x$1" -o "xupgrade" == "x$1" ]]; then
+if [[ "xinstall" = "x$1" || "xupgrade" = "x$1" ]]; then
     groupadd -r netdata > /dev/null 2>&1
     useradd -r -g netdata netdata > /dev/null 2>&1
 fi
