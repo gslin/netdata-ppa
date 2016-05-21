@@ -1,3 +1,9 @@
+netdata (1.2.0-1ubuntu1~unstable~ppa5) unstable; urgency=medium
+
+  * Fix rm script.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Sat, 21 May 2016 22:21:40 +0800
+
 netdata (1.2.0-1ubuntu1~unstable~ppa4) unstable; urgency=medium
 
   * Fix scripts.
