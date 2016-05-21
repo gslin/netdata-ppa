@@ -1,2 +1,6 @@
-userdel netdata > /dev/null 2>&1
-groupdel netdata || true > /dev/null 2>&1
+#!/bin/bash
+
+if [[ "xpurge" == "x$1" ]]; then
+    userdel netdata > /dev/null 2>&1
+    groupdel netdata || true > /dev/null 2>&1
+fi
