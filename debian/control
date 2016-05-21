@@ -1,0 +1,16 @@
+Source: netdata
+Section: utils
+Priority: optional
+Maintainer: Gea-Suan Lin (PPA) <gslin@gslin.org>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, pkg-config, zlib1g-dev
+Standards-Version: 3.9.4
+Homepage: https://github.com/firehol/netdata
+Vcs-Git: https://github.com/firehol/netdata.git
+Vcs-Browser: https://github.com/firehol/netdata
+
+Package: netdata
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, zlib1g
+Description: Real-time performance monitoring.
+ netdata is a highly optimized Linux daemon providing real-time performance
+ monitoring for Linux systems, Applications, SNMP devices, over the web!

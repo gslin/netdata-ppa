@@ -1,0 +1,23 @@
+netdata (1.1.0-1ubuntu1~unstable~ppa2) unstable; urgency=medium
+
+  * Add netdata.conf.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Mon, 02 May 2016 17:22:30 +0800
+
+netdata (1.1.0-1ubuntu1~unstable~ppa1) unstable; urgency=medium
+
+  * Packaging 1.1.0.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Mon, 02 May 2016 17:01:18 +0800
+
+netdata (1.0.0-1ubuntu1~unstable~ppa2) unstable; urgency=medium
+
+  * Change pkg-tools to pkg-config.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Mon, 02 May 2016 16:52:36 +0800
+
+netdata (1.0.0-1ubuntu1~unstable~ppa1) unstable; urgency=low
+
+  * Packaging 1.0.0.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Mon, 02 May 2016 16:07:26 +0800
