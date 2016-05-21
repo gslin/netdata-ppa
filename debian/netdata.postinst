@@ -1,2 +1,2 @@
-groupadd -r netdata
-useradd -r -g netdata netdata
+groupadd -r netdata > /dev/null 2>&1
+useradd -r -g netdata netdata > /dev/null 2>&1
