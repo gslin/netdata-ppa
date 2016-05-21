@@ -25,5 +25,12 @@ tar -zxv -C "${TMPDIR}" -f "${TMPDIR}/${TARBALL}"
 cp -R debian/ "${BASEDIR}/"
 pushd "${BASEDIR}/"
 dh_make -f "../${TARBALL}" -s
-dch --distribution unstable -v "${VERSION}-1ubuntu1~unstable~ppa1"
+
+if grep "^netdata (${VERSION}"; then
+    dch --distribution unstable -i
+else
+    dch --distribution unstable -v "${VERSION}-1ubuntu1~unstable~ppa1"
+fi
+
 popd
+cp "${BASEDIR}/debian/changelog" debian/
