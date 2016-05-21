@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 TMPDIR=/tmp/netdata
 URL_PREFIX=https://github.com/firehol/netdata/releases/download
