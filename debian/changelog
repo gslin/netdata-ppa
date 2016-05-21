@@ -1,3 +1,15 @@
+netdata (1.2.0-1ubuntu1~unstable~ppa4) unstable; urgency=medium
+
+  * Fix scripts.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Sat, 21 May 2016 22:00:21 +0800
+
+netdata (1.2.0-1ubuntu1~unstable~ppa3) unstable; urgency=medium
+
+  * Create group/user for netdata.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Sat, 21 May 2016 21:00:19 +0800
+
 netdata (1.2.0-1ubuntu1~unstable~ppa2) unstable; urgency=medium
 
   * Add uuid-runtime and uuid-dev.

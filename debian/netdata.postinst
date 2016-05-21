@@ -1,0 +1,2 @@
+groupadd -r netdata
+useradd -r -g netdata netdata
