@@ -24,7 +24,7 @@ wget -c -O "${TMPDIR}/${TARBALL}" -- "${URL}"
 tar -zxv -C "${TMPDIR}" -f "${TMPDIR}/${TARBALL}"
 cp -R debian/ "${BASEDIR}/"
 pushd "${BASEDIR}/"
-dh_make -f "../${TARBALL}" -s
+dh_make -f "../${TARBALL}" -s < /dev/null
 
 if grep "^netdata (${VERSION}" debian/changelog; then
     dch --distribution unstable -i
