@@ -23,6 +23,7 @@ mkdir -p "${TMPDIR}"
 wget -c -O "${TMPDIR}/${TARBALL}" -- "${URL}"
 tar -zxv -C "${TMPDIR}" -f "${TMPDIR}/${TARBALL}"
 cp -R debian/ "${BASEDIR}/"
-cd "${BASEDIR}/"
+pushd "${BASEDIR}/"
 dh_make -f "../${TARBALL}" -s
 dch --distribution unstable -v "${VERSION}-1ubuntu1~unstable~ppa1"
+popd
