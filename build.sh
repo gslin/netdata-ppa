@@ -27,7 +27,7 @@ pushd "${BASEDIR}/"
 dh_make -f "../${TARBALL}" -s < /dev/null
 
 # If we have already submitted this version before, use -i to increase version.
-if grep "^netdata (${VERSION}" debian/changelog; then
+if grep -q "^netdata (${VERSION}" debian/changelog; then
     dch --distribution unstable -i
 else
     dch --distribution unstable -v "${VERSION}-1ubuntu1~unstable~ppa1"
