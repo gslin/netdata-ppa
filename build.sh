@@ -1,7 +1,7 @@
 #!/bin/bash
 
 GIT_REPOSITORY_URL=https://github.com/firehol/netdata.git
-NAME=dehydrated
+NAME=netdata
 
 TMPDIR="/tmp/${NAME}"
 
