@@ -1,3 +1,9 @@
+netdata (1.4.0-1ubuntu1~unstable~ppa1) unstable; urgency=medium
+
+  * Packaging 1.4.0.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Tue, 11 Oct 2016 21:36:50 +0800
+
 netdata (1.2.0-1ubuntu1~unstable~ppa8) unstable; urgency=medium
 
   * Handle /var/cache/netdata and chown web part.
