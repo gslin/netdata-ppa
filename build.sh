@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TMPDIR=/tmp/netdata
-URL_PREFIX=https://github.com/firehol/netdata/releases/download
+GIT_REPOSITORY_URL=https://github.com/firehol/netdata.git
+NAME=dehydrated
 
 TMPDIR="/tmp/${NAME}"
 
