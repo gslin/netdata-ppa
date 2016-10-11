@@ -3,7 +3,4 @@
 if [[ "xinstall" = "x$1" || "xupgrade" = "x$1" ]]; then
     groupadd -r netdata > /dev/null 2>&1
     useradd -r -g netdata netdata > /dev/null 2>&1
-    chown -R root:netdata /usr/share/netdata/web/ > /dev/null 2>&1
-    mkdir -p /var/cache/netdata > /dev/null 2>&1
-    chown netdata:netdata /var/cache/netdata > /dev/null 2>&1
 fi

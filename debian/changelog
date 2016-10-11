@@ -1,3 +1,9 @@
+netdata (1.4.0-1ubuntu1~unstable~ppa2) unstable; urgency=medium
+
+  * Fix directory permissions.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Tue, 11 Oct 2016 23:15:02 +0800
+
 netdata (1.4.0-1ubuntu1~unstable~ppa1) unstable; urgency=medium
 
   * Packaging 1.4.0.
