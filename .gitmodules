@@ -1,0 +1,3 @@
+[submodule "ppa-tools"]
+	path = ppa-tools
+	url = https://github.com/gslin/ppa-tools.git
